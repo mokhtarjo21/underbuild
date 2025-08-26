@@ -2,7 +2,7 @@ import React from 'react';
 import { Sparkles, Zap, Rocket } from 'lucide-react';
 
 function App() {
-  return (
+  return (<>
     <div className="min-h-screen bg-gradient-to-br from-slate-900 via-purple-900 to-slate-900 relative overflow-hidden" dir="rtl">
       {/* Animated background elements */}
       <div className="absolute inset-0">
@@ -91,7 +91,8 @@ function App() {
               <div className="h-full bg-gradient-to-r from-purple-500 to-blue-500 rounded-full animate-pulse" style={{ width: '10%' }}></div>
             </div>
           </div>
-
+             <p className="text-xl md:text-2xl lg:text-3xl text-slate-300 font-medium max-w-3xl mx-auto leading-relaxed mb-12">
+            يتم بناء هذه المنصة بأحدث التقنيات من خلال <a href='https://wa.me/201060186098' className='text-purple-400 underline'>شركة ميخوتك</a>     </p>
           {/* Smart loading animation */}
           <div className="flex justify-center items-center space-x-4 space-x-reverse">
             <div className="flex space-x-2 space-x-reverse">
@@ -116,6 +117,7 @@ function App() {
       {/* Bottom gradient overlay */}
       <div className="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-t from-slate-900 to-transparent"></div>
     </div>
+   </>
   );
 }
 
