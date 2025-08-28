@@ -194,8 +194,11 @@ function App() {
                       <div className="p-2 bg-emerald-100 rounded-xl ml-4">
                         <a href='tel:201110587515'> <Phone className="w-6 h-6 text-emerald-600" /></a>
                       </div>
+                       <div className="flex flex-col">
                       <span className="text-gray-800 font-semibold text-lg">201110587515</span>
+                     
                        <span className="text-sm text-gray-500"> 📌 ا.د/عصام ابو عايد</span>
+                       </div>
                     </div>
                   </div>
                   
@@ -204,8 +207,10 @@ function App() {
                       <div className="p-2 bg-emerald-100 rounded-xl ml-4">
                        <a href='tel:201277903353'> <Phone className="w-6 h-6 text-emerald-600" /></a>
                       </div>
-                      <span className="text-gray-800 font-semibold text-lg">201277903353</span>
-                       <span className="text-sm text-gray-500"> 📌 ا.د/ياسر علي</span>
+                       <div className="flex flex-col">
+      <span className="text-gray-800 font-semibold text-lg">201277903353</span>
+      <span className="text-sm text-gray-500">📌 أ.د/ ياسر علي</span>
+    </div>
                     </div>
                   </div>
                 </div>
