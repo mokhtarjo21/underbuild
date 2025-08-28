@@ -35,15 +35,16 @@ function App() {
             </div>
           </div>
           
-          <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-6 leading-tight text-white">
-            <span className="block bg-gradient-to-r from-white via-blue-100 to-white bg-clip-text text-transparent animate-pulse font-arabic">
-              جامعة تَيم الإسلامية الأمريكية
-            </span>
-          </h1>
-          
-          <h2 className="text-xl md:text-3xl lg:text-4xl font-bold text-red-500 mb-8 tracking-wide">
+         <h1 className="relative z-50 text-4xl md:text-6xl lg:text-7xl font-bold mb-6 leading-tight text-white">
+  <span className="block bg-gradient-to-r from-white via-blue-100 to-white bg-clip-text text-transparent animate-pulse">
+    جامعة تَيم الإسلامية الأمريكية
+  </span>
+</h1>
+
+<h2 className="relative z-50 text-xl md:text-3xl lg:text-4xl font-bold text-red-500 mb-8 tracking-wide">
   Taym American Islamic University (TAIU)
 </h2>
+
 
           
           <div className="flex flex-wrap justify-center gap-4 text-sm md:text-base text-blue-200">
