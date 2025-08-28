@@ -21,29 +21,30 @@ function App() {
           <div className="absolute top-0 left-0 w-full h-full bg-[url('data:image/svg+xml,%3Csvg%20width%3D%2260%22%20height%3D%2260%22%20viewBox%3D%220%200%2060%2060%22%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%3E%3Cg%20fill%3D%22none%22%20fill-rule%3D%22evenodd%22%3E%3Cg%20fill%3D%22%23ffffff%22%20fill-opacity%3D%220.1%22%3E%3Ccircle%20cx%3D%2230%22%20cy%3D%2230%22%20r%3D%222%22/%3E%3C/g%3E%3C/g%3E%3C/svg%3E')] animate-pulse"></div>
         </div>
 
-        <div className="relative container mx-auto px-6 py-20 md:py-32 text-center">
+        <div className="relative container mx-auto px-6 py-10 md:py-22 text-center">
           <div className="mb-8 flex justify-center">
-            <div className="p-4 bg-white/10 backdrop-blur-sm rounded-full border border-white/20">
+            <div className="p-3 bg-white/10 backdrop-blur-sm rounded-full border border-white/20">
               {/* <GraduationCap className="w-16 h-16 text-white" /> */}
               <img 
                 // src="https://taimuni.edu.eg/wp-content/uploads/2023/11/cropped-Logo-TAYM-1.png" 
                 src="./logo.png"
                 alt="TAIU Logo" 
 
-                 className="w-32 h-32 object-cover rounded-full"
+                 className="w-40 h-40 object-cover rounded-full"
               />
             </div>
           </div>
           
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-6 leading-tight text-white">
-            <span className="block bg-gradient-to-r from-white via-blue-100 to-white bg-clip-text text-transparent animate-pulse">
+            <span className="block bg-gradient-to-r from-white via-blue-100 to-white bg-clip-text text-transparent animate-pulse font-arabic">
               جامعة تَيم الإسلامية الأمريكية
             </span>
           </h1>
           
-          <h2 className="text-xl md:text-3xl lg:text-4xl font-light text-blue-100 mb-8 tracking-wide">
-            Taym American Islamic University (TAIU)
-          </h2>
+          <h2 className="text-xl md:text-3xl lg:text-4xl font-bold text-red-500 mb-8 tracking-wide">
+  Taym American Islamic University (TAIU)
+</h2>
+
           
           <div className="flex flex-wrap justify-center gap-4 text-sm md:text-base text-blue-200">
             <div className="flex items-center gap-2 bg-white/10 backdrop-blur-sm px-4 py-2 rounded-full border border-white/20">
@@ -108,7 +109,7 @@ function App() {
                   الكليات الأكاديمية
                 </h3>
                 
-                <div className="space-y-4">
+                <div className="space-y-4 font-bold ">
                   {[
                     'كلية اللغة العربية للناطقين بغيرها',
                     'كلية اللغة العربية وعلومها',
@@ -149,7 +150,7 @@ function App() {
                   الدبلومات المتخصصة
                 </h3>
                 
-                <div className="space-y-4">
+                <div className="space-y-4 font-bold ">
                   {[
                     'دبلومة المتخصص في تعليم العربية للناطقين بغيرها',
                     'دبلومة اللسانيات القضائية',
@@ -209,7 +210,7 @@ function App() {
                       </div>
                        <div className="flex flex-col">
       <span className="text-gray-800 font-semibold text-lg">201277903353</span>
-      <span className="text-sm text-gray-500">📌 أ.د/ ياسر علي</span>
+      <span className="text-sm text-gray-500">📌 أ.د/ ياسر عصي</span>
     </div>
                     </div>
                   </div>
